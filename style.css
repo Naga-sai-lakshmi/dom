@@ -1,0 +1,39 @@
+.container{
+    width:1000px;
+    height:500px;
+    margin-left: 250px;
+}
+.container1{
+    width:500px;
+    height:500px;
+    float:left;
+    text-align: center;
+    padding-top: 200px;
+    background-color: pink;
+}
+.container2{
+    width:500px;
+    height:500px;
+    float:left;
+    text-align: center;
+    padding-top: 200px;
+    background-color: violet;
+}
+@media(max-width:600px){
+    .container1{
+        width:200px;
+        height:300px;
+        text-align: center;
+        padding-top: 100px;
+        background-color: pink;
+        overflow: hidden;
+    }
+    .container2{
+        width:200px;
+        height:300px;
+        text-align: center;
+        padding-top: 100px;
+        background-color: violet;
+        overflow: hidden;
+    }
+}

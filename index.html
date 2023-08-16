@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>js</title>
+    </head>
+   <body>
+    <div class="container">
+    <div class="container1">
+        <h1>Select the batch</h1>
+    <form>
+    <input type="radio" onclick="mydata1()" value="mahesh" name="sum ">
+    <label>Mahesh</label>
+    <br>
+    <input type="radio" onclick="mydata2()" value="mahesh"  name="sum ">
+    <label>Lakshmi</label>
+    <br>
+    <input type="radio" onclick="mydata3()" value="mahesh"  name="sum ">
+    <label>Hemanth</label>
+    <br>
+    <input type="radio" onclick="mydata4()" value="mahesh"  name="sum ">
+    <label>Sujatha</label>
+    </form>
+    </div>
+    <div class="container2">
+        <h2 id="txt1">Name</h2>
+        <h2 id="txt4">Batch No</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia facilis, dolor minima nisi velit totam non quod asperiores voluptas exercitationem eum libero consectetur sint. Magni amet aperiam vel cum.</p>
+    </div>
+</div>
+     <script>
+        function mydata1(sum){
+            document.getElementById("txt1").innerHTML="Name:Mahesh"
+            document.getElementById("txt4").innerHTML="Batch.No:FSD-26"
+        }
+        function mydata2(sum){
+            document.getElementById("txt1").innerHTML="Name:Lakshmi"
+            document.getElementById("txt4").innerHTML="Batch.No:FSD-27"
+        }
+        function mydata3(sum){
+            document.getElementById("txt1").innerHTML="Name:Hemanth"
+            document.getElementById("txt4").innerHTML="Batch.No:FSD-28"
+        }
+        function mydata4(sum){
+            document.getElementById("txt1").innerHTML="Name:Sujatha"
+            document.getElementById("txt4").innerHTML="Batch.No:FSD-29"
+        }
+     </script>
+
+   </body>
+</html>
